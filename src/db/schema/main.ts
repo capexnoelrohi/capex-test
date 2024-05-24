@@ -7,7 +7,7 @@ const now = sql`CURRENT_TIMESTAMP()`;
 const defaultColumns = {
   id: serial("id"),
   createdAt: timestamp("created_at").notNull().default(now),
-  updatedAt: timestamp("updated_at").notNull().onUpdateNow(),
+  updatedAt: timestamp("updated_at").onUpdateNow(),
 };
 
 export const user = capexTable("user", {

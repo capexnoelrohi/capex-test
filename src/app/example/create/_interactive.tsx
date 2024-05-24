@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { useTransition } from "react";
 import { create } from "./actions";
 import { Input } from "@/components/ui/input";
+import { toast } from "sonner";
 
 interface FormProps {
   defaultValues?: New;
@@ -32,11 +33,12 @@ export function Form({ defaultValues }: FormProps) {
       if (result.success) {
         form.reset();
       }
+      toast.message(result.message);
     });
   };
   return (
     <F.Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)}>
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
         <F.FormField
           name="name"
           control={form.control}
