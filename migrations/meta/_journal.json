@@ -1,0 +1,13 @@
+{
+  "version": "6",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1716540165867,
+      "tag": "0000_faulty_overlord",
+      "breakpoints": true
+    }
+  ]
+}
