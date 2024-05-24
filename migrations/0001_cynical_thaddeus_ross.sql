@@ -1,0 +1,2 @@
+ALTER TABLE `cpx_post` MODIFY COLUMN `updated_at` timestamp ON UPDATE CURRENT_TIMESTAMP;--> statement-breakpoint
+ALTER TABLE `cpx_user` MODIFY COLUMN `updated_at` timestamp ON UPDATE CURRENT_TIMESTAMP;
