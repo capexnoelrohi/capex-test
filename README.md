@@ -14,7 +14,7 @@
 4. Move into the folder via `cd capex-test` in your terminal
 3. Rename `.env.example` to `.env`
 5. Install dependencies by running `pnpm install` in your terminal
-6. Add a database in your mysql server named as `cpx_test`
+6. Create a database in your local MySQL server named as `capex_test`
 7. Run `pnpm db migrate` in your terminal to create the tables
 8. Create a schema in `src/db/schema/main.ts` for `role` table with fields `user_id` and `name` 
 9. Create a relation in `src/db/schema/relations.ts` for `user` and `role` tables
