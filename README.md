@@ -1,9 +1,10 @@
 # CaPEx Frontend Test
 
 <p align="center">
+  <a href="#instructions"><strong>Instructions</strong></a> ·
   <a href="#techstack"><strong>TechStack</strong></a> ·
   <a href="#prerequisites"><strong>Prerequisites</strong></a> ·
-  <a href="#requirements"><strong>Requirements</strong></a> ·
+  <a href="#checklist"><strong>CheckList</strong></a> ·
 </p>
 
 ## Instructions
